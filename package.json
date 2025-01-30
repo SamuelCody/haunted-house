@@ -1,0 +1,18 @@
+{
+  "name": "threejs-journey-exercise",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "update": "npm i -g npm-check-updates && ncu -u && npm i"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "lil-gui": "^0.20.0",
+    "three": "^0.172.0"
+  }
+}
